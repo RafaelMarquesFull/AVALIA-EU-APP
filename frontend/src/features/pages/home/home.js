@@ -4,19 +4,12 @@ import "./home.css"
 
 export default function Home(params) {
     return(
-        <div className="container_home" >
-            <div>
-                {Header}
-            </div>
-                <section className="section_Home" >
-                    
+        <div className="container_home">
+            <Header />
+            <main className="section_Home">
 
-                </section>
-            <div>
-                {Footer}
-            </div>
-           
-  
+            </main>
+            <Footer />
         </div>
     )
 }

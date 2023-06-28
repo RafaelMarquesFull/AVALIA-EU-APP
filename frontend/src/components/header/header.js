@@ -1,22 +1,19 @@
 import Navbar from "../navbar/navbar"
 import "./header.css"
 
-export default function Header() {
+function Header() {
     return(
-        <div>
+        <div className='container_header'>
+            <Navbar />
             <div>
-                {Navbar}
-            </div>
-
-            <div>
-                <button >
+                <button>
                     Login
                 </button>
                 <button>
                     Registre-se
                 </button>
             </div>
-
         </div>
     )
 }
+export default Header;
