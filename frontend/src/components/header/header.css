@@ -3,4 +3,15 @@
 
 .container_header{
     height: 200px;
+    width: 100%;
+    display: flex;
+    padding: 1em;
+    justify-content: space-around;
+    margin: 0 1em 0 1em;
+}
+.logo{
+    max-width: 10em;
+}
+.buttons{
+    margin: 0.5em;
 }

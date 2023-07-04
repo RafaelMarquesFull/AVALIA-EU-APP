@@ -1,0 +1,10 @@
+.container_menu{
+    display: flex;
+    
+
+}
+.menu_item{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0.5em;
+}

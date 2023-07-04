@@ -9,13 +9,13 @@ function Header() {
     const navigate = useNavigate();
     return(
         <div className='container_header'>
-           <Link to="/"> <img src={Logo} alt="Logomarca"/> </Link> 
+           <Link to="/"> <img  className='logo' src={Logo} alt="Logomarca"/> </Link> 
             <Navbar />
-            <div>
-                <button onClick={()=> navigate("/Login")}>
+            <div className="buttons">
+                <button className="buttons" onClick={()=> navigate("/login")}>
                     Login
                 </button>
-                <button onClick={()=> navigate("/Login")}>
+                <button className="buttons" onClick={()=> navigate("/registre-se")}>
                     Registre-se
                 </button>
             </div>
