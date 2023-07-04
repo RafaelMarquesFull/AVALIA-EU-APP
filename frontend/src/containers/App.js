@@ -1,9 +1,9 @@
-import Home from "../features/pages/home/home"
+import Routers from "../routers/routers";
 
 function App() {
   return (
     <div className="App">
-       <Home/>
+       <Routers/>
     </div>
   );
 }
