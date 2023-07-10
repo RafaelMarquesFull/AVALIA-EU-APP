@@ -8,9 +8,9 @@ export default function PageBase(){
     return(
         <main className='container'>
             <Header/>
-            <containe>
+            <section>
                 <Outlet/>
-            </containe>
+            </section>
             <Footer/>
         </main>
     )
